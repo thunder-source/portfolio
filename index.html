@@ -1,86 +1,89 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!--==================== UNICONS ====================-->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="/assets/css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Portfolio</title>
-    </head>     
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo">Praditya</a>
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list grid">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">
-                                <i class="uil uil-home nav__icon"></i>Home
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">
-                                <i class="uil uil-user-circle nav__icon"></i>About
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">
-                                <i class="uil uil-file-heart nav__icon"></i>Skills
-                            </a>
-                        </li>                        
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">
-                                <i class="uil uil-message nav__icon"></i>Contact Me
-                            </a>
-                        </li>
-                    </ul>
-                    <i class="uil uil-multiply nav__close" id="nav-close"></i>
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">AYUSH</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-home nav__icon"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user-circle nav__icon"></i>About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-heart nav__icon"></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i>Contact Me
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-multiply nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Button for Theme change -->
+                <i class="uil uil-moon change__theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
                 </div>
+            </div>
+        </nav>
 
-                <div class="nav__btns">
-                    <!-- Button for Theme change -->
-                    <i class="uil uil-moon change__theme" id="theme-button" ></i>
+    </header>
 
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+
+                        <a href="https://www.linkedin.com/in/praditya-manjhi-0165a7211/" target="blank"
+                            class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+
+                        <!-- <a href="https://www.instagram.com/" target="blank" class="home__social-icon"> -->
+                        <!-- <i class="uil uil-instagram"></i> -->
+                        <!-- </a> -->
+
+                        <a href="https://github.com/thunder-source" target="blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
                     </div>
-                </div>
-            </nav>
-            
-        </header>
-
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                <div class="home__container container grid">
-                    <div class="home__content grid">
-                        <div class="home__social">
-
-                            <a href="https://www.linkedin.com/in/praditya-manjhi-0165a7211/" target="blank"  class="home__social-icon">
-                                <i class="uil uil-linkedin-alt"></i>
-                            </a>
-
-                            <!-- <a href="https://www.instagram.com/" target="blank" class="home__social-icon"> -->
-                                <!-- <i class="uil uil-instagram"></i> -->
-                            <!-- </a> -->
-
-                            <a href="https://github.com/thunder-source" target="blank" class="home__social-icon">
-                                <i class="uil uil-github-alt"></i>
-                            </a>                           
-                        </div>
-                        <div class="home__img">
-                            <img src="/assets/img/undraw_software_engineer_re_fyew.svg" alt="">
-                            <!-- <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <div class="home__img">
+                        <img src="/assets/img/undraw_software_engineer_re_fyew.svg" alt="">
+                        <!-- <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <mask id="mask0" mask-type="alpha">
                                     <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
                                     130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
@@ -94,155 +97,157 @@
                                     -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
                                     <image class="home__blob-img" x='12' y='5' xlink:href="assets/img/first.png"/>
                                 </g> -->
-                            </svg>
-                        </div>
-                        <div class="home__data">
-                            <h1 class="home__title">Hi, I'am Praditya</h1>
-                            <h3 class="home__subtitle">Full stack developer</h3>
-                            <p class="home__description">Web developer, with extensive knowledge and years of experience, working in web technologies and Ui / Ux design, delivering quality work.</p>
-                            <a href="#contact" class="button button--flex">
-                                Contact Me<i class="uil uil-message button__icon"></i>
-                            </a>
-                        </div>
+                        </svg>
                     </div>
-                    <div class="home__scroll">
-                        <a href="#about" class="home__scroll-button button--flex">
-                            <i class="uil uil-mouse-alt-2 home__scroll-mouse"></i>
-                            <span class="home__scroll-name">Scroll down</span>
-                            <i class="uil uil-angle-down home__scroll-arrow"></i>
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'am Praditya</h1>
+                        <h3 class="home__subtitle">Full stack developer</h3>
+                        <p class="home__description">Web developer, with extensive knowledge and years of experience,
+                            working in web technologies and Ui / Ux design, delivering quality work.</p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me<i class="uil uil-message button__icon"></i>
                         </a>
                     </div>
                 </div>
-                
-            </section>
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt-2 home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="uil uil-angle-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
 
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                <h2 class="section__title">About Me</h2>
-                <span class="section__subtitle">My introduction</span>
+        </section>
 
-                <div class="about__container container grid">
-                    <img src="/assets/img/undraw_programming_re_kg9v.svg" alt="" class="about__img">
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My introduction</span>
 
-                    <div class="about__data">
-                        <p class="about__description">Web developer, with extensive knowledge and years of experience, working in web technologies and Ui / Ux design, delivering quality work.
-                        </p>
-                        <div class="about__info">
+            <div class="about__container container grid">
+                <img src="/assets/img/undraw_programming_re_kg9v.svg" alt="" class="about__img">
 
-                            <div>
-                                <span class="about__info-title">08+</span>
-                                <span class="about__info-name">Months <br> experience</span>
-                            </div>
+                <div class="about__data">
+                    <p class="about__description">Web developer, with extensive knowledge and years of experience,
+                        working in web technologies and Ui / Ux design, delivering quality work.
+                    </p>
+                    <div class="about__info">
 
-                            <div>
-                                <span class="about__info-title">5+</span>
-                                <span class="about__info-name">Completed <br> project</span>
-                            </div>
-
-                            <div>
-                                <span class="about__info-title">05+</span>
-                                <span class="about__info-name">Technologies <br> knowledge</span>
-                            </div>
+                        <div>
+                            <span class="about__info-title">08+</span>
+                            <span class="about__info-name">Months <br> experience</span>
                         </div>
-                        <div class="about__buttons">
-                            <a download="" href="/assets/pdf/Praditya_CV.pdf" class="button button--flex">
-                                Download CV<i class="uil uil-file-download-alt button__icon"></i>
-                            </a>
+
+                        <div>
+                            <span class="about__info-title">5+</span>
+                            <span class="about__info-name">Completed <br> project</span>
+                        </div>
+
+                        <div>
+                            <span class="about__info-title">05+</span>
+                            <span class="about__info-name">Technologies <br> knowledge</span>
                         </div>
                     </div>
+                    <div class="about__buttons">
+                        <a download="" href="/assets/pdf/Praditya_CV.pdf" class="button button--flex">
+                            Download CV<i class="uil uil-file-download-alt button__icon"></i>
+                        </a>
+                    </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!--==================== SKILLS ====================-->
-            <section class="skillssection" id="skills">
-                <h2 class="section__title">Skills</h2>
-                <span class="section__subtitle">My techinical level</span>
+        <!--==================== SKILLS ====================-->
+        <section class="skillssection" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My techinical level</span>
 
-                <div class="skills__container container grid">
-                    <div>
-                        <!--==================== SKILLS 1 ====================-->
-                        <div class="skills__content skills__open">
-                            <div class="skills__content">
-                                <div class="skills__header">
-                                    <i class="uil uil-brackets-curly skills__icon"></i>
+            <div class="skills__container container grid">
+                <div>
+                    <!--==================== SKILLS 1 ====================-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__content">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
 
-                                    <div>
-                                        <h1 class="skills_title">Frontend developer</h1>
-                                        <span class="skills__subtitle">Fresher 8 months experience</span>
+                                <div>
+                                    <h1 class="skills_title">Frontend developer</h1>
+                                    <span class="skills__subtitle">Fresher 8 months experience</span>
+                                </div>
+                                <!-- <i class="uil uil-angle-down skills__arrow"></i> -->
+                            </div>
+
+                            <div class="skills__list grid">
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__number">90%</span>
                                     </div>
-                                    <!-- <i class="uil uil-angle-down skills__arrow"></i> -->
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__html"></span>
+                                    </div>
                                 </div>
 
-                                <div class="skills__list grid">
-
-                                    <div class="skills__data">
-                                        <div class="skills__titles">
-                                            <h3 class="skills__name">HTML</h3>
-                                            <span class="skills__number">90%</span>
-                                        </div>
-                                        <div class="skills__bar">
-                                            <span class="skills__percentage skills__html"></span>
-                                        </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__number">75%</span>
                                     </div>
-
-                                    <div class="skills__data">
-                                        <div class="skills__titles">
-                                            <h3 class="skills__name">CSS</h3>
-                                            <span class="skills__number">75%</span>
-                                        </div>
-                                        <div class="skills__bar">
-                                            <span class="skills__percentage skills__css"></span>
-                                        </div>
-                                    </div>                             
-
-                                    <div class="skills__data">
-                                        <div class="skills__titles">
-                                            <h3 class="skills__name">JavaScript</h3>
-                                            <span class="skills__number">55%</span>
-                                        </div>
-                                        <div class="skills__bar">
-                                            <span class="skills__percentage skills__js"></span>
-                                        </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__css"></span>
                                     </div>
+                                </div>
 
-                                    <div class="skills__data">
-                                        <div class="skills__titles">
-                                            <h3 class="skills__name">BootStrap</h3>
-                                            <span class="skills__number">60%</span>
-                                        </div>
-                                        <div class="skills__bar">
-                                            <span class="skills__percentage skills__bootstrap"></span>
-                                        </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__number">55%</span>
                                     </div>
-                                    <div class="skills__data">
-                                        <div class="skills__titles">
-                                            <h3 class="skills__name">React Js</h3>
-                                            <span class="skills__number">40%</span>
-                                        </div>
-                                        <div class="skills__bar">
-                                            <span class="skills__percentage skills__reactJS"></span>
-                                        </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__js"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">BootStrap</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__bootstrap"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">React Js</h3>
+                                        <span class="skills__number">40%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__reactJS"></span>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <!--==================== SKILLS 2 ====================-->
-                        <div class="skills__content skills__close backend">
-                            <div class="skills__content">
-                                <div class="skills__header">
-                                    <i class="uil uil-server-network-alt skills__icon"></i>
+                    <!--==================== SKILLS 2 ====================-->
+                    <div class="skills__content skills__close backend">
+                        <div class="skills__content">
+                            <div class="skills__header">
+                                <i class="uil uil-server-network-alt skills__icon"></i>
 
-                                    <div>
-                                        <h1 class="skills__titles">Backend developer</h1>
-                                        <span class="skills__subtitle">Fresher 4 months experience</span>
-                                    </div>
-                                    <!-- <i class="uil uil-angle-down skills__arrow"></i> -->
+                                <div>
+                                    <h1 class="skills__titles">Backend developer</h1>
+                                    <span class="skills__subtitle">Fresher 4 months experience</span>
                                 </div>
+                                <!-- <i class="uil uil-angle-down skills__arrow"></i> -->
+                            </div>
 
-                                <div class="skills__list grid">
+                            <div class="skills__list grid">
 
-                                    <!-- <div class="skills__data">
+                                <!-- <div class="skills__data">
                                         <div class="skills__titles">
                                             <h3 class="skills__name">Node Js</h3>
                                             <span class="skills__number">10%</span>
@@ -252,27 +257,27 @@
                                         </div>
                                     </div>   -->
 
-                                    <div class="skills__data">
-                                        <div class="skills__titles">
-                                            <h3 class="skills__name">Java</h3>
-                                            <span class="skills__number">40%</span>
-                                        </div>
-                                        <div class="skills__bar">
-                                            <span class="skills__percentage skills__java"></span>
-                                        </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Java</h3>
+                                        <span class="skills__number">40%</span>
                                     </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__java"></span>
+                                    </div>
+                                </div>
 
-                                    <div class="skills__data">
-                                        <div class="skills__titles">
-                                            <h3 class="skills__name">DSA</h3>
-                                            <span class="skills__number">40%</span>
-                                        </div>
-                                        <div class="skills__bar">
-                                            <span class="skills__percentage skills__dsa"></span>
-                                        </div>
-                                    </div>                               
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">DSA</h3>
+                                        <span class="skills__number">40%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__dsa"></span>
+                                    </div>
+                                </div>
 
-                                    <!-- <div class="skills__data">
+                                <!-- <div class="skills__data">
                                         <div class="skills__titles">
                                             <h3 class="skills__name">Python</h3>
                                             <span class="skills__number">25%</span>
@@ -282,261 +287,272 @@
                                         </div>
                                     </div> -->
 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--==================== PROJECTS ====================-->
+        <section class="project__section" id="project">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">most recent work</span>
+            <div class="project__container">
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="project__content grid">
+                                <img src="/assets/img/projects/undraw_hamburger_-8-ge6.svg" alt="" class="project__img">
+                                <div class="project__data">
+                                    <h3 class="project__title">EasyMeals Website</h3>
+                                    <p class="project__decription">
+                                        Single page website for meals description
+                                    </p>
+                                    <a href="https://amazing-poincare-5e2f15.netlify.app" target="_"
+                                        class="button button--flex button--small project__button">
+                                        check it out
+                                        <i class="uil uil-arrow-right button__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project__content grid">
+                                <img src="/assets/img/projects/undraw_authentication_re_svpt.svg" alt=""
+                                    class="project__img">
+                                <div class="project__data">
+                                    <h3 class="project__title">Password Generator Website</h3>
+                                    <p class="project__decription">
+                                        Single page website for Generating Password
+                                    </p>
+                                    <a href="https://nostalgic-einstein-376af4.netlify.app" target="_"
+                                        class="button button--flex button--small project__button">
+                                        check it out
+                                        <i class="uil uil-arrow-right button__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project__content grid">
+                                <img src="/assets/img/projects/undraw_audio_player_re_cl20.svg" alt=""
+                                    class="project__img">
+                                <div class="project__data">
+                                    <h3 class="project__title">order summary </h3>
+                                    <p class="project__decription">
+                                        Single page website for order description
+                                    </p>
+                                    <a href="https://loving-haibt-90c6bd.netlify.app" target="_"
+                                        class="button button--flex button--small project__button">
+                                        check it out
+                                        <i class="uil uil-arrow-right button__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project__content grid">
+                                <img src="/assets/img/projects/undraw_book_lover_re_rwjy.svg" alt=""
+                                    class="project__img">
+                                <div class="project__data">
+                                    <h3 class="project__title">Book Pod</h3>
+                                    <p class="project__decription">
+                                        Single page website for Books info
+                                    </p>
+                                    <a href="https://suspicious-hamilton-1f9f41.netlify.app" target="_"
+                                        class="button button--flex button--small project__button">
+                                        check it out
+                                        <i class="uil uil-arrow-right button__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project__content grid">
+                                <img src="/assets/img/projects/icons8-tire-swing-96.png" width="100px" alt=""
+                                    class="project__img">
+                                <div class="project__data">
+                                    <h3 class="project__title">Tires Website</h3>
+                                    <p class="project__decription">
+                                        Single page website for Tires description
+                                    </p>
+                                    <a href="https://blissful-stonebraker-032143.netlify.app" target="_"
+                                        class="button button--flex button--small project__button">
+                                        check it out
+                                        <i class="uil uil-arrow-right button__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project__content grid">
+                                <img src="/assets/img/projects/undraw_design_components_9vy6.svg" alt=""
+                                    class="project__img">
+                                <div class="project__data">
+                                    <h3 class="project__title">components</h3>
+                                    <p class="project__decription">
+                                        component card
+                                    </p>
+                                    <a href="https://nostalgic-shaw-2805d1.netlify.app/" target="_"
+                                        class="button button--flex button--small project__button">
+                                        check it out
+                                        <i class="uil uil-arrow-right button__icon"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                       
+                    <div class="swiper-pagination"></div>
                 </div>
-            </section>
-            <!--==================== PROJECTS ====================-->
-            <section class="project__section" id="project">
-                <h2 class="section__title">Projects</h2>
-                <span class="section__subtitle">most recent work</span>
-                <div class="project__container">                   
-               
-               <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <div class="project__content grid">
-                        <img src="/assets/img/projects/undraw_hamburger_-8-ge6.svg" alt="" class="project__img">
-                        <div class="project__data">
-                            <h3 class="project__title">EasyMeals Website</h3>
-                            <p class="project__decription">
-                                Single page website for meals description
-                            </p>
-                            <a href="https://amazing-poincare-5e2f15.netlify.app" target="_" class="button button--flex button--small project__button">
-                                check it out
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="project__content grid">
-                        <img src="/assets/img/projects/undraw_authentication_re_svpt.svg" alt="" class="project__img">
-                        <div class="project__data">
-                            <h3 class="project__title">Password Generator Website</h3>
-                            <p class="project__decription">
-                                Single page website for Generating Password
-                            </p>
-                            <a href="https://nostalgic-einstein-376af4.netlify.app" target="_" class="button button--flex button--small project__button">
-                                check it out
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="project__content grid">
-                        <img src="/assets/img/projects/undraw_audio_player_re_cl20.svg"alt="" class="project__img">
-                        <div class="project__data">
-                            <h3 class="project__title">order summary </h3>
-                            <p class="project__decription">
-                                Single page website for order description
-                            </p>
-                            <a href="https://loving-haibt-90c6bd.netlify.app" target="_" class="button button--flex button--small project__button">
-                                check it out
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="project__content grid">
-                        <img src="/assets/img/projects/undraw_book_lover_re_rwjy.svg" alt="" class="project__img">
-                        <div class="project__data">
-                            <h3 class="project__title">Book Pod</h3>
-                            <p class="project__decription">
-                                Single page website for Books info
-                            </p>
-                            <a href="https://suspicious-hamilton-1f9f41.netlify.app" target="_" class="button button--flex button--small project__button">
-                                check it out
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="project__content grid">
-                        <img src="/assets/img/projects/icons8-tire-swing-96.png" width="100px" alt="" class="project__img">
-                        <div class="project__data">
-                            <h3 class="project__title">Tires Website</h3>
-                            <p class="project__decription">
-                                Single page website for Tires description
-                            </p>
-                            <a href="https://blissful-stonebraker-032143.netlify.app" target="_" class="button button--flex button--small project__button">
-                                check it out
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="project__content grid">
-                        <img src="/assets/img/projects/undraw_design_components_9vy6.svg" alt="" class="project__img">
-                        <div class="project__data">
-                            <h3 class="project__title">components</h3>
-                            <p class="project__decription">
-                                component card
-                            </p>
-                            <a href="https://nostalgic-shaw-2805d1.netlify.app/" target="_" class="button button--flex button--small project__button">
-                                check it out
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                  </div>                
-                </div>
-                <div class="swiper-pagination"></div>
-              </div>
             </div>
-           </section>
+        </section>
 
 
 
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
-                <h2 class="section__title">Contact Me</h2>
-                <span class="section__subtitle">Get in touch</span>
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
 
-                <div class="contact__container container grid">
-                    <div>
-                        <div class="contact__information">
-                            <i class="uil uil-whatsapp contact__icon"></i>
-
-                            <div>
-                                <h3 class="contact__title">Whatsapp me</h3>
-                                <span class="contact__subtitle">7974544024</span>
-                            </div>
-                        </div>
-
-                        <div class="contact__information">
-                            <i class="uil uil-envelope contact__icon"></i>
-
-                            <div>
-                                <h3 class="contact__title">Email</h3>
-                                <span class="contact__subtitle">majhipraditya@gmail.com</span>
-                            </div>
-                        </div>
-
-                        <div class="contact__information">
-                            <i class="uil uil-map-marker contact__icon"></i>
-
-                            <div>
-                                <h3 class="contact__title">Location</h3>
-                                <span class="contact__subtitle">Nai sadak, Lashkar Gwalior Madhya Pradesh India</span>
-                            </div>
-                        </div>
-                    </div>
-                    <form action="" class="contact__form grid">
-                                              
-                            <div class="contact__content">
-                                <lable class="contact__lable">Name</lable>
-                                <input type="text" class="contact__input">
-                            </div>
-                        
-                            <div class="contact__content">
-                                <lable class="contact__lable">Email</lable>
-                                <input type="email" class="contact__input">
-                            </div>                    
-
-                        <div class="contact__content">
-                            <lable class="contact__lable">Project</lable>
-                            <input type="text" class="contact__input">
-                        </div>
-
-                        <div class="contact__content">
-                            <lable class="contact__lable">Message</lable>
-                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
-                        </div>
-                        
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-whatsapp contact__icon"></i>
 
                         <div>
-                            <a href="" class="button button--flex">
-                               Send Message <i class="uil uil-message button__icon"></i>
-                            </a>
+                            <h3 class="contact__title">Whatsapp me</h3>
+                            <span class="contact__subtitle">7974544024</span>
                         </div>
+                    </div>
 
-                    </form>
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">majhipraditya@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">Nai sadak, Lashkar Gwalior Madhya Pradesh India</span>
+                        </div>
+                    </div>
                 </div>
-            </section>
-        </main>
+                <form action="" class="contact__form grid">
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-            <div class="footer__bg">
-                <div class="footer__container container grid">
+                    <div class="contact__content">
+                        <lable class="contact__lable">Name</lable>
+                        <input type="text" class="contact__input">
+                    </div>
+
+                    <div class="contact__content">
+                        <lable class="contact__lable">Email</lable>
+                        <input type="email" class="contact__input">
+                    </div>
+
+                    <div class="contact__content">
+                        <lable class="contact__lable">Project</lable>
+                        <input type="text" class="contact__input">
+                    </div>
+
+                    <div class="contact__content">
+                        <lable class="contact__lable">Message</lable>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+
+
                     <div>
-                        <h1 class="footer__title">Praditya</h1>
-                        <span class="footer__subtitle">Frontend developer</span>
-                    </div>
-                    <ul class="footer__links">
-
-                        <li>
-                            <a href="#home" class="footer__links">Home</a>
-                        </li>
-
-                        <li>
-                            <a href="#about" class="footer__links">About</a>
-                        </li>
-
-                        <li>
-                            <a href="#contact" class="footer__links">Contact</a>
-                        </li>
-                    </ul>
-
-                    <div class="footer__socials">
-
-                        <a href="https://www.instagram.com/" target="_blank" class="footer__social">
-                            <i class="uil uil-instagram"></i>
-                        </a>
-
-                        <a href="https://twitter.com/PradityaManjhi" target="_blank" class="footer__social">
-                            <i class="uil uil-twitter-alt"></i>
-                        </a>
-
-                        <a href="https://www.facebook.com/" target="_blank" class="footer__social">
-                            <i class="uil uil-facebook-f"></i>
+                        <a href="" class="button button--flex">
+                            Send Message <i class="uil uil-message button__icon"></i>
                         </a>
                     </div>
+
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Praditya</h1>
+                    <span class="footer__subtitle">Frontend developer</span>
                 </div>
+                <ul class="footer__links">
 
-                <p class="footer__copy">&#169; ThunderCode. All right reserved</p>
+                    <li>
+                        <a href="#home" class="footer__links">Home</a>
+                    </li>
 
-            </div>            
-        </footer>
-        
-        <!--==================== SCROLL TOP ====================-->
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class="uil uil-arrow-up scrollup__icon"></i>
-        </a>
+                    <li>
+                        <a href="#about" class="footer__links">About</a>
+                    </li>
 
-        <!--==================== SWIPER JS ====================-->
-        <script src="/assets/js/swiper-bundle.min.js"></script>
+                    <li>
+                        <a href="#contact" class="footer__links">Contact</a>
+                    </li>
+                </ul>
 
-        <!--==================== MAIN JS ====================-->
-        <script src="/assets/js/main.js"></script>
+                <div class="footer__socials">
 
-        <script>
-            var swiper = new Swiper(".mySwiper", {
-        effect: "coverflow",
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: "auto",
-        coverflowEffect: {
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-        },
-      });
-        </script>
-    </body>
+                    <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+
+                    <a href="https://twitter.com/PradityaManjhi" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; ThunderCode. All right reserved</p>
+
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="/assets/js/main.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+</body>
 
 
 
