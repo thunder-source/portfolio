@@ -4,7 +4,7 @@ A clean, beautiful and responsive Portfolio.
 
 ## Demo
 
-[![](assets/img/favicon/android-chrome-512x512.png)](https://praditya-portfolio.netlify.app/)
+[![](assets/img/favicon/android-chrome-192x192.png)](https://praditya-portfolio.netlify.app/)
 
 ## Features
 
